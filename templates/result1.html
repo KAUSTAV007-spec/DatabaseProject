@@ -1,0 +1,17 @@
+<title>LIFE INSURANCE1</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+<body >
+    
+    <div class="table-users" style="text-align: center">
+     
+
+     {% for table in tables %}
+    <h1>{{titles[loop.index]}}</h1>
+    <h4 style="text-align: center">  {{ table|safe }}</h4>
+  {% endfor %}
+  </div>
+  <h2 style="text-align: center">Your existing Clients and their info</h2>
+  
+  </body>

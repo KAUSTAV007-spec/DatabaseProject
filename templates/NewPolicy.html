@@ -1,0 +1,27 @@
+<title> New Policy</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<body >
+
+
+    <h1 style="text-align: center">New Policy Details</h1>
+
+    <div class="form">
+        <form action="/branchL3" method="POST" style="text-align: center; ">
+            <label for="fname">PolicyID:</label><br>
+            <input type="text" name="num1" id="num1"><br>
+            <label for="fname">Policy Name:</label><br>
+            <input type="text" name="num2" id="num2"><br>
+            <label for="fname">Monthly Premium:</label><br>
+            <input type="text" name="num3" id="num3"><br>
+            <label for="fname">Amount Payable On death:</label><br>
+            <input type="text" name="num4" id="num4"><br>
+
+
+
+
+
+            <input type="submit" value="Create">
+        </form>
+    </div>
+
+</body>

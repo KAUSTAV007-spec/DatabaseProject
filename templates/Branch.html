@@ -1,0 +1,18 @@
+<title> Branch Login</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<body >
+
+
+    <h1 style="text-align: center">Branch Login</h1>
+
+    <div class="form">
+        <form action="/BranchL" method="POST" style="text-align: center; ">
+            <label for="fname">BranchCode:</label><br>
+            <input type="text" name="num1" id="num1"><br>
+            <label for="fname">Branch password:</label><br>
+            <input type="password" name="num2" id="num2"><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+</body>
